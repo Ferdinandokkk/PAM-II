@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        botaoCalculaAreaListener();
+        botaoCalcAreaListener();
 }
 
-    public void botaoCalculaAreaListener() {
-        Button botaoCalculaArea = (Button) findViewById(R.id.botaoCalculaArea);
-        botaoCalculaArea.setOnClickListener(new View.OnClickListener() {
+    public void botaoCalcAreaListener() {
+        Button botaoCalcArea = (Button) findViewById(R.id.botaoCalcArea);
+        botaoCalcArea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 final EditText inputAlt = (EditText) findViewById(R.id.inputAlt);
