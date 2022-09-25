@@ -21,10 +21,10 @@ public class MainActivity extends AppCompatActivity {
         botaoCalculaArea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                final EditText inputAltura = (EditText) findViewById(R.id.inputAltura);
-                double alturaDecimal = Double.parseDouble(inputAltura.getText().toString());
-                final EditText inputLargura = (EditText) findViewById(R.id.inputLargura);
-                double larguraDecimal = Double.parseDouble(inputLargura.getText().toString());
+                final EditText inputAlt = (EditText) findViewById(R.id.inputAlt);
+                double alturaDecimal = Double.parseDouble(inputAlt.getText().toString());
+                final EditText inputLarg = (EditText) findViewById(R.id.inputLarg);
+                double larguraDecimal = Double.parseDouble(inputLarg.getText().toString());
                 DecimalFormat df = new DecimalFormat("#.#");
 
                 double areaDecimal = Double.parseDouble(df.format(alturaDecimal * larguraDecimal));
