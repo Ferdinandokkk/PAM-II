@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
         android:layout_marginTop="31dp"
-        android:text="Calcular!"
+        android:text="Calcular Área"
         app:layout_constraintStart_toStartOf="@+id/outputArea"
         app:layout_constraintTop_toBottomOf="@+id/outputArea" />
 </androidx.constraintlayout.widget.ConstraintLayout>
